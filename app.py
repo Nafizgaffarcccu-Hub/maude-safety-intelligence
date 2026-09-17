@@ -233,7 +233,7 @@ st.markdown(
 # --------------------------------------------------
 @st.cache_resource
 def get_database():
-mongo_uri = st.secrets.get("MONGO_URI", os.environ.get("MONGO_URI"))
+    mongo_uri = st.secrets.get("MONGO_URI", os.environ.get("MONGO_URI"))
     if not mongo_uri:
         return None
 
