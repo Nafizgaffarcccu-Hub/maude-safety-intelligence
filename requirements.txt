@@ -1,0 +1,5 @@
+streamlit==1.64.0
+pymongo
+certifi
+pandas
+plotly
